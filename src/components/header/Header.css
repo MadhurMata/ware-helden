@@ -1,0 +1,26 @@
+.container{
+  background-image: url('../../lib/images/header-background.jpg');
+  image: no-repeat;
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10PX;
+}
+
+.title{
+  color: blue;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li:nth-child(2){
+  margin: 0 50px;
+}
