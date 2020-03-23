@@ -1,4 +1,4 @@
-.container{
+.top-header{
   background-image: url('../../lib/images/header-background.jpg');
   image: no-repeat;
   height: 150px;
@@ -15,12 +15,24 @@
   font-size: 2rem;
 }
 
-.nav{
-  list-style-type: none;
+nav{
+
+}
+
+.nav-list{
   display: flex;
   justify-content: center;
+  list-style-type: none; 
+}
+
+a{
+  text-decoration: none;
 }
 
 li:nth-child(2){
   margin: 0 50px;
+}
+
+hr{
+  border: solid blue 2px;
 }

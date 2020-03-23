@@ -1,23 +1,25 @@
 import React from 'react';
 
 import { Component } from "react";
-import { render } from "@testing-library/react";
 
-import './Header.css'
+import './Header.css';
 
 export default class Header extends Component {
 
   render(){
     return(
-      <div>
-      <div class="container">
-        <h1 class="title">Ware Helden</h1>
-      </div>
-      <ul class="nav">
-        <li>About</li>
-        <li>Bloggs</li>
-        <li>Contact</li>
-      </ul>  
+      <div className="container">
+        <div className="top-header">
+          <h1 className="title">Ware Helden</h1>
+        </div>
+        <nav>
+          <ul className="nav-list">
+            <li><a href="/#">About</a></li>
+            <li><a href="/#">Bloggs</a></li>
+            <li><a href="/#">Contact</a></li>
+          </ul>
+          <hr/>
+        </nav>
       </div>
     );
   };

@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import  Header from './components/header/Header';
+import BloggList from './containers/blogg-list/BloggList';
 
 function App() {
   return (
    <div>
      <Header/>
-     <h1>Ware Helden</h1>
+     <BloggList/>
    </div>
   );
 }
