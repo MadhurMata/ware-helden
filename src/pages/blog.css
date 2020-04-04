@@ -1,0 +1,63 @@
+.container{
+  width: 100%;
+  flex-grow: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box{
+  padding: 16px;
+}
+
+.top-info-box{
+  margin-bottom: 8px;
+}
+
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.00735em;
+}
+
+.date{
+  font-size: 0.875rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.image-wrapper{
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.x{
+  width: 100%;
+  padding-bottom: 30%;
+}
+
+.image-wrapper img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition-delay: 500ms;
+  }
+
+  .article p{
+    margin-top: 3%;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-family: Merriweather, serif;
+    line-height: 1.6;
+    color: black;
+  }
+
