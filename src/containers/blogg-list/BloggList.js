@@ -16,7 +16,7 @@ export default class BloggList  extends Component {
     ];
     return (
       <div class="container">
-        {cards.map((card, index) => 
+        {cards.slice(0, 3).map((card, index) => 
         <BloggCard
           key={index}
           cardImg={ card.cardImg}

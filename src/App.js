@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import  Header from './components/header/Header';
-import BloggList from './containers/blogg-list/BloggList';
+import Header from './components/header/Header';
+import Blog from './pages/Blog';
 
 function App() {
   return (
    <div>
      <Header/>
-     <BloggList/>
+     <Blog/>
    </div>
   );
 }
